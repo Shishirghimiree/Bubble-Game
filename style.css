@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy";
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  display: grid;
+  place-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(170, 222, 222);
+}
+#pannel {
+  overflow: hidden;
+  border-radius: 10px;
+  height: 80%;
+  width: 80%;
+  background-color: white;
+}
+#ptop {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  height: 60px;
+  width: 100%;
+  background-color: rgb(112, 148, 148);
+}
+#elem {
+  width: 10%;
+}
+.box {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+}
