@@ -25,7 +25,7 @@ html {
 }
 #ptop {
   display: flex;
-  padding: 10px;
+  padding: 0px 30%;
   align-items: center;
   justify-content: space-between;
   color: #fff;
@@ -35,9 +35,38 @@ html {
 }
 #elem {
   width: 10%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
 .box {
-  padding: 10px;
+  padding: 5px 10px;
   background-color: #fff;
+  color: rgb(66, 158, 126);
+  font-weight: 600;
+  font-size: 20px;
   border-radius: 5px;
+}
+#pbtn {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  height: calc(100% - 60px);
+  width: 100%;
+  padding: 20px;
+}
+.bubble {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  height: 40px;
+  width: 40px;
+  color: #fff;
+  border-radius: 50px;
+  background-color: rgb(112, 148, 148);
+}
+.bubble:hover {
+  cursor: pointer;
+  background-color: rgb(67, 86, 86);
 }
