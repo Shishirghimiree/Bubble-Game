@@ -49,6 +49,8 @@ html {
 }
 #pbtn {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 10px;
   flex-wrap: wrap;
   height: calc(100% - 60px);
@@ -69,4 +71,9 @@ html {
 .bubble:hover {
   cursor: pointer;
   background-color: rgb(67, 86, 86);
+}
+#gameOver {
+  font-size: 100px;
+  font-weight: 700;
+  color: rgb(112, 148, 148);
 }
